@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=LimitedCounter
+comment0.text=\ \r\n\ Class\ Limited\ is\ a\ representatin\ of\ a\ counter\ that\ stops\ counting\ up\r\n\ when\ the\ the\ counter\ has\ reached\ it's\ maximum\ bound.\r\n\ \r\n\ Utilizes\ the\ Counter\ superclass\r\n\ \r\n\ @author\ Marwan\ Zeid\ 101185876\r\n\ @version\ 03.15.2022\r\n
+comment1.params=
+comment1.target=LimitedCounter()
+comment1.text=\r\n\ Constructs\ a\ new\ LimitedCounter\ whose\ current\ count\ is\r\n\ initialized\ to\ superclass\ Counter's\ DEFAULT_MINIMUM,\ and\ which\ counts\ between\r\n\ DEFAULT_MINIMUM\ and\ DEFAULT_MAXIMUM,\ inclusive.\r\n
+comment2.params=minCount\ maxCount
+comment2.target=LimitedCounter(int,\ int)
+comment2.text=\r\n\ Constructs\ a\ new\ LimitedCounter\ whose\ current\ count\ is\r\n\ initialized\ to\ minCount,\ and\ which\ counts\ between\r\n\ minCount\ and\ maxCount,\ inclusive.\r\n\ \r\n\ @param\ minCount\ Integer\ representing\ the\ minimum\ number\ the\ counter\ can\ represent\r\n\ @param\ maxCount\ Integer\ representing\ the\ maximum\ number\ the\ counter\ can\ represent\r\n
+comment3.params=
+comment3.target=void\ countUp()
+comment3.text=\r\n\ Increment\ this\ counter\ by\ 1.\r\n
+numComments=4

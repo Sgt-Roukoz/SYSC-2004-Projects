@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=TrafficSignal
+comment0.text=\r\n\ This\ class\ models\ a\ simple\ green-yellow-red\ traffic\ signal\ (also\ known\ as\ a\ traffic\r\n\ light\ or\ stop\ light).\ At\ any\ time,\ exactly\ one\ of\ the\ signal's\ three\ lights\ is\ on.\r\n
+comment1.params=light
+comment1.target=TrafficSignal(int)
+comment1.text=\r\n\ Constructs\ a\ new\ TrafficSignal\ in\ which\ the\ specified\ light\ is\ on.\r\n\ @param\ light\ The\ light\ that\ is\ initially\ on.\r\n\ @throws\ IllegalArgumentException\ if\ light\ is\ not\ GREEN,\ YELLOW,\ or\ RED.\r\n
+comment2.params=
+comment2.target=void\ advance()
+comment2.text=\r\n\ Advance\ this\ traffic\ signal\ to\ the\ next\ light\ in\ the\ sequence\:\ GREEN\ to\r\n\ YELLOW,\ YELLOW\ to\ RED,\ and\ RED\ to\ GREEN.\r\n
+comment3.params=
+comment3.target=boolean\ isGreenLight()
+comment3.text=\r\n\ Is\ the\ light\ green?\r\n\ @return\ true\ if\ this\ traffic\ signal\ is\ GREEN\ and\ false\ otherwise.\r\n
+comment4.params=
+comment4.target=boolean\ isYellowLight()
+comment4.text=\r\n\ Is\ the\ light\ yellow?\r\n\ @return\ true\ if\ this\ traffic\ signal\ is\ YELLOW\ and\ false\ otherwise.\r\n
+comment5.params=
+comment5.target=boolean\ isRedLight()
+comment5.text=\r\n\ Is\ the\ light\ red?\r\n\ @return\ true\ if\ this\ traffic\ signal\ is\ RED\ and\ false\ otherwise.\r\n
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment6.text=\r\n\ Returns\ the\ current\ TrafficSignal\ status\r\n\ @return\ A\ string\ representation\ of\ this\ TrafficSignal,\ indicating\ which\r\n\ light\ is\ currently\ on,\ in\ the\ form,\ "xxxx\ light"\ (where\ xxxx\ is\ one\ of\r\n\ "green",\ "yellow"\ or\ "red".\r\n
+numComments=7
