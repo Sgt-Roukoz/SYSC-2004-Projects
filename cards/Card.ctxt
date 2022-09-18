@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Card
+comment0.text=\r\n\ A\ Card\ is\ a\ playing\ card\ from\ an\ Anglo-American\ deck\ of\ cards.\r\n\ \r\n\ @author\ Lynn\ Marshall\r\n\ @author\ Marwan\ Zeid\ 101185876\r\n\ @version\ 1.2\ Mar.\ 01,\ 2022\r\n
+comment1.params=suit\ rank
+comment1.target=Card(java.lang.String,\ int)
+comment1.text=\r\n\ Constructs\ a\ new\ card\ with\ the\ specified\ suit\ and\ rank.\r\n\ \r\n\ @param\ suit\ The\ String\ representation\ of\ the\ card\ suit.\r\n\ @param\ rank\ Integer\ representing\ the\ rank\ of\ the\ card,\ between\ 1\ and\ 13\r\n
+comment2.params=
+comment2.target=java.lang.String\ suit()
+comment2.text=\r\n\ Returns\ this\ card's\ suit.\r\n\ \r\n\ @return\ Returns\ a\ string\ representation\ of\ the\ card's\ suit\r\n
+comment3.params=
+comment3.target=int\ rank()
+comment3.text=\r\n\ Returns\ this\ card's\ rank.\r\n\ \r\n\ @return\ Returns\ an\ integer\ representation\ of\ the\ card's\ rank\r\n
+comment4.params=aCard
+comment4.target=boolean\ hasSameRank(Card)
+comment4.text=\r\n\ Determines\ if\ this\ card\ has\ the\ same\ rank\ as\ the\ specified\ card.\r\n\ \r\n\ @param\ aCard\ Card\ object\ to\ be\ compared\ with\r\n\ \r\n\ @retun\ Returns\ true\ if\ card\ has\ the\ same\ rank\ as\ aCard,\ otherwise\ returns\ false\r\n
+comment5.params=aCard
+comment5.target=boolean\ isEqualTo(Card)
+comment5.text=\r\n\ Determines\ if\ this\ card\ is\ equal\ to\ the\ specified\ card.\r\n\ \r\n\ @param\ aCard\ Card\ object\ to\ be\ compared\ to\r\n\ \r\n\ @return\ Returns\ true\ if\ aCard\ and\ the\ card\ are\ equivalent\ in\ rank\ and\ suit,\ otherwise\ false\r\n
+numComments=6
